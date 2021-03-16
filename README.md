@@ -1,6 +1,19 @@
 <img src="https://admin.marciodias.me/images/marca/vertical/marca-default.png" width="120" alt="Márcio Dias - Soluções Digitais" />
 
-# Wiser Login Challenge
+My name Is Márcio Dias, I'm a Full Stack Developer from Divinópolis, Minas Gerais - Brazil.
+
+I solve problems that others don't.
+
+<img src="https://admin.marciodias.me/images/marca/vertical/marca-default.png" width="120" alt="Márcio Dias - Soluções Digitais" />
+
+## Social
+
+- [https://github.com/marciodiasdeveloper/marciodiasdeveloper](https://github.com/marciodiasdeveloper/marciodiasdeveloper)
+- [https://instagram.com/marciodias.me](https://instagram.com/marciodias.me)
+- [https://www.linkedin.com/in/marciodiasdeveloper](https://www.linkedin.com/in/marciodiasdeveloper)
+
+
+# Wiser Login Challenge by Márcio Dias
 
 
 Desenvolver uma aplicação de login para Wiser Educação em React Native.
