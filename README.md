@@ -12,6 +12,10 @@ Dentro da pasta raiz do projeto execute o comando
 
 `yarn`
 
+`cd ios`
+
+`pod install`
+
 ## Rodar o projeto
 
 Iniciar o metro com o comando: `yarn start`
