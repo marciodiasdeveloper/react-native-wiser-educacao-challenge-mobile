@@ -1,6 +1,7 @@
+<img src="https://admin.marciodias.me/images/marca/vertical/marca-default.png" width="120" alt="Márcio Dias - Soluções Digitais" />
+
 # Wiser Login Challenge
 
-<img src="https://admin.marciodias.me/images/marca/vertical/marca-default.png" width="120" alt="Márcio Dias - Soluções Digitais" />
 
 Desenvolver uma aplicação de login para Wiser Educação em React Native.
 
