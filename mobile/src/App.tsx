@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import type {Node} from 'react';
 import { StatusBar, Text } from 'react-native';
 // import {NavigationContainer} from '@react-navigation/native';
-// import FlashMessage from 'react-native-flash-message';
+import FlashMessage from 'react-native-flash-message';
 // import Routes from './routes';
 import { useDispatch, useSelector } from 'react-redux';
 import { clearAuthControls } from './store/modules/auth/clearcontrols/actions';
@@ -22,9 +22,9 @@ function App() {
       <>
     {/* // <NavigationContainer> */}
       <StatusBar barStyle="light-content" />
+      <FlashMessage position="top" animated={true} />
       <Text>Teste</Text>
       {/* <Routes /> */}
-      {/* <FlashMessage position="top" animated={true} /> */}
     {/* // </NavigationContainer> */}
     </>
   );
