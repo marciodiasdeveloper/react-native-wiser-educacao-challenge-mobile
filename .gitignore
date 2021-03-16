@@ -1,46 +1,46 @@
 
 # OSX
 #
-wiserlogin/.DS_Store
+mobile/.DS_Store
 
 # Xcode
 #
-wiserlogin/build/
-wiserlogin/*.pbxuser
-wiserlogin/!default.pbxuser
-wiserlogin/*.mode1v3
-wiserlogin/!default.mode1v3
-wiserlogin/*.mode2v3
-wiserlogin/!default.mode2v3
-wiserlogin/*.perspectivev3
-wiserlogin/!default.perspectivev3
-wiserlogin/xcuserdata
-wiserlogin/*.xccheckout
-wiserlogin/*.moved-aside
-wiserlogin/DerivedData
-wiserlogin/*.hmap
-wiserlogin/*.ipa
-wiserlogin/*.xcuserstate
+mobile/build/
+mobile/*.pbxuser
+mobile/!default.pbxuser
+mobile/*.mode1v3
+mobile/!default.mode1v3
+mobile/*.mode2v3
+mobile/!default.mode2v3
+mobile/*.perspectivev3
+mobile/!default.perspectivev3
+mobile/xcuserdata
+mobile/*.xccheckout
+mobile/*.moved-aside
+mobile/DerivedData
+mobile/*.hmap
+mobile/*.ipa
+mobile/*.xcuserstate
 
 # Android/IntelliJ
 #
-wiserlogin/build/
-wiserlogin/.idea
-wiserlogin/.gradle
-wiserlogin/local.properties
-wiserlogin/*.iml
+mobile/build/
+mobile/.idea
+mobile/.gradle
+mobile/local.properties
+mobile/*.iml
 
 # node.js
 #
-wiserlogin/node_modules/
-wiserlogin/npm-debug.log
-wiserlogin/yarn-error.log
+mobile/node_modules/
+mobile/npm-debug.log
+mobile/yarn-error.log
 
 # BUCK
-wiserlogin/buck-out/
-wiserlogin/\.buckd/
-wiserlogin/*.keystore
-wiserlogin/!debug.keystore
+mobile/buck-out/
+mobile/\.buckd/
+mobile/*.keystore
+mobile/!debug.keystore
 
 # fastlane
 #
@@ -49,12 +49,12 @@ wiserlogin/!debug.keystore
 # For more information about the recommended setup visit:
 # https://docs.fastlane.tools/best-practices/source-control/
 
-wiserlogin/*/fastlane/report.xml
-wiserlogin/*/fastlane/Preview.html
-wiserlogin/*/fastlane/screenshots
+mobile/*/fastlane/report.xml
+mobile/*/fastlane/Preview.html
+mobile/*/fastlane/screenshots
 
 # Bundle artifact
-wiserlogin/*.jsbundle
+mobile/*.jsbundle
 
 # CocoaPods
-wiserlogin/ios/Pods/
+mobile/ios/Pods/
