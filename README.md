@@ -1,5 +1,7 @@
 # Wiser Login Challenge
 
+<img src="https://admin.marciodias.me/images/marca/vertical/marca-default.png" width="120" alt="Márcio Dias - Soluções Digitais" />
+
 Desenvolver uma aplicação de login para Wiser Educação em React Native.
 
 Layout referência: [**Figma**](https://www.figma.com/file/zC98pMR61WhKX5joTKTMr6/Teste-Wiser?node-id=3%3A4)
