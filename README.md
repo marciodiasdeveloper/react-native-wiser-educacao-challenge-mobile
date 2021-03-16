@@ -21,6 +21,6 @@ Dentro da pasta raiz do projeto execute o comando
 
 ## Rodar o projeto
 
-Iniciar o metro com o comando: `yarn start`
 
-Abrir um novo terminal e rodar o comando `yarn android` ou `yarn ios`
+Executar Android: `yarn android` 
+Executar iOS: `yarn ios`
