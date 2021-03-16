@@ -6,7 +6,7 @@ I solve problems that others don't.
 
 ## Social
 
-- [https://github.com/marciodiasdeveloper/marciodiasdeveloper](https://github.com/marciodiasdeveloper/marciodiasdeveloper)
+- [https://github.com/marciodiasdeveloper](https://github.com/marciodiasdeveloper)
 - [https://instagram.com/marciodias.me](https://instagram.com/marciodias.me)
 - [https://www.linkedin.com/in/marciodiasdeveloper](https://www.linkedin.com/in/marciodiasdeveloper)
 
