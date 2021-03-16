@@ -8,4 +8,7 @@ Layout referência: [**Figma**](https://www.figma.com/file/zC98pMR61WhKX5joTKTMr
 
 git clone https://github.com/marciodiasdeveloper/wiser-educacao-challenge-mobile.git
 
-Dentro da pasta raiz do projeto execute o comando **yarn** para instalar todos os pacotes necessários utilizados pelo package.json
+Dentro da pasta raiz do projeto execute o comando 
+
+**yarn** 
+
