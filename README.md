@@ -10,7 +10,7 @@ git clone https://github.com/marciodiasdeveloper/wiser-educacao-challenge-mobile
 
 Dentro da pasta raiz do projeto execute o comando 
 
-`**yarn** `
+`yarn`
 
 ## Rodar o projeto
 
