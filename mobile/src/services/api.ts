@@ -1,6 +1,5 @@
 import { Platform } from 'react-native';
 import axios from 'axios';
-import { refreshTokenRequest } from '../store/modules/auth/refresh/actions';
 
 const api = axios.create({
   baseURL: 'https://api.marciodias.me/api/v1/awards/professionals',
@@ -13,6 +12,7 @@ const api = axios.create({
   // baseURL: 'ip' // phone
 });
 
+
 api.registerInterceptWithStore = (store) => {
   api.interceptors.response.use(
     api.interceptors.response.use(
@@ -20,7 +20,7 @@ api.registerInterceptWithStore = (store) => {
       (err) => {
         if (err.response.status === 400 || err.response.status === 401) {
           if (err.response.data.error === 'token_expired') {
-            store.dispatch(refreshTokenRequest(store.getState().auth.token));
+            // store.dispatch(refreshTokenRequest(store.getState().auth.token));
           }
         }
         return Promise.reject(err);
