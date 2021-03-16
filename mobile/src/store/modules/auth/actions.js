@@ -5,7 +5,6 @@ export function signOut() {
 }
 
 export function signUpRequest(obj) {
-  console.log(`action signUpRequest name, cpf, email, password, phone -> ${obj.name} - ${obj.cpf} - ${obj.email} - ${obj.password} - ${obj.phone}`);
   return {
     type: '@auth/SIGN_UP_REQUEST',
     payload: {email, password},
