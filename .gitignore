@@ -1,1 +1,60 @@
 
+# OSX
+#
+wiserlogin/.DS_Store
+
+# Xcode
+#
+wiserlogin/build/
+wiserlogin/*.pbxuser
+wiserlogin/!default.pbxuser
+wiserlogin/*.mode1v3
+wiserlogin/!default.mode1v3
+wiserlogin/*.mode2v3
+wiserlogin/!default.mode2v3
+wiserlogin/*.perspectivev3
+wiserlogin/!default.perspectivev3
+wiserlogin/xcuserdata
+wiserlogin/*.xccheckout
+wiserlogin/*.moved-aside
+wiserlogin/DerivedData
+wiserlogin/*.hmap
+wiserlogin/*.ipa
+wiserlogin/*.xcuserstate
+
+# Android/IntelliJ
+#
+wiserlogin/build/
+wiserlogin/.idea
+wiserlogin/.gradle
+wiserlogin/local.properties
+wiserlogin/*.iml
+
+# node.js
+#
+wiserlogin/node_modules/
+wiserlogin/npm-debug.log
+wiserlogin/yarn-error.log
+
+# BUCK
+wiserlogin/buck-out/
+wiserlogin/\.buckd/
+wiserlogin/*.keystore
+wiserlogin/!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+wiserlogin/*/fastlane/report.xml
+wiserlogin/*/fastlane/Preview.html
+wiserlogin/*/fastlane/screenshots
+
+# Bundle artifact
+wiserlogin/*.jsbundle
+
+# CocoaPods
+wiserlogin/ios/Pods/
