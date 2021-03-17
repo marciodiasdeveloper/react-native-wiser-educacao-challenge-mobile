@@ -2,7 +2,6 @@ import React, { useState, useRef, useCallback } from 'react';
 
 import backgroundImage from '../../assets/images/background.png';
 import Input from '../../components/Input';
-import api from '../../services/api';
 import { showMessage } from "react-native-flash-message";
 import * as Yup from 'yup';
 import Icon from 'react-native-vector-icons/Feather';
@@ -50,6 +49,8 @@ const SignIn: React.FC = () => {
   
           dispatch(signInRequest(data.email, data.password));
   
+
+
         } catch (err) {
           if (err instanceof Yup.ValidationError) {
             const errors = getValidationErrors(err);

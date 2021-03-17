@@ -2,14 +2,7 @@ import { Platform } from 'react-native';
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://api.marciodias.me/api/v1/awards/professionals',
-  // baseURL:
-  //   Platform.OS === 'ios'
-  //     ? 'http://127.0.0.1:8000/api/v1/awards/professionals'
-  //     : 'http://10.0.2.2:8000/api/v1/awards/professionals',
-  // baseURL: 'http://10.0.2.2:3333' // android
-  // baseURL: 'http://10.0.3.2:3333' // genymotion
-  // baseURL: 'ip' // phone
+  baseURL: 'https://60526639fb49dc00175b814e.mockapi.io/api/v1/',
 });
 
 

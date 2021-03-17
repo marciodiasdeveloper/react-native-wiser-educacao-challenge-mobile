@@ -13,13 +13,14 @@ export function* signIn({payload}) {
 
   try {
     const {email, password} = payload;
-    const response = yield call(api.post, 'authentication', {
+    const response = yield call(api.post, 'auth', {
       email,
       password,
     });
     const {token, approved, sent_review, user} = response.data;
     api.defaults.headers.Authorization = `Bearer ${token}`;
     yield put(signInSuccess(token, approved, sent_review, user));
+ 
   } catch (err) {
     yield put(signInFailure());
     console.log('erro', err);
