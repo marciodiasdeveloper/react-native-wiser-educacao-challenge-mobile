@@ -7,7 +7,7 @@
 - [https://www.linkedin.com/in/marciodiasdeveloper](https://www.linkedin.com/in/marciodiasdeveloper)
 
 
-# Wiser Login Challenge by Márcio Dias
+# Wiser Login Challenge
 
 Desenvolver uma aplicação de login para Wiser Educação em React Native.
 
