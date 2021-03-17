@@ -1,6 +1,6 @@
 <img src="https://admin.marciodias.me/images/marca/vertical/marca-default.png" width="120" alt="Márcio Dias - Soluções Digitais" />
 
-## Márcio Dias - Soluções Digitais - Social
+## Márcio Dias - Soluções Digitais
 
 - [https://github.com/marciodiasdeveloper](https://github.com/marciodiasdeveloper)
 - [https://instagram.com/marciodias.me](https://instagram.com/marciodias.me)
