@@ -11,10 +11,11 @@ My name Is Márcio Dias, I'm a Full Stack Developer from Divinópolis, Minas Ger
 
 # Wiser Login Challenge by Márcio Dias
 
-
 Desenvolver uma aplicação de login para Wiser Educação em React Native.
 
 **Layout referência:** [**Figma**](https://www.figma.com/file/zC98pMR61WhKX5joTKTMr6/Teste-Wiser?node-id=3%3A4)
+
+<img src="project.png" width="350" title="Wiser Educação - Login">
 
 O objetivo será criar uma aplicação de login, ou seja, acesso de um usuário. O funcionamento é simples: ao preencher e-mail e senha deverá ser mostrado um alerta com sucesso ou erro. Também teremos uma validação de preenchimento correto em campo de texto.
 
