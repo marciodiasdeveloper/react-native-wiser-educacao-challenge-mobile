@@ -34,7 +34,7 @@ const SignIn: React.FC = () => {
               <Title>{'Olá, seja\nbem-vindo!'}</Title>
               <SubTitle>Para acessar a plataforma, faça seu login.</SubTitle>
               <Form ref={formRef} onSubmit={() => {}}>
-                  {/* <FeatherIcon icon="user" size={40} color="#383838" /> */}
+                  <FeatherIcon icon="user" size={40} color="#383838" />
                 {/* <Input
                       autoCorrect={false}
                       autoCapitalize="none"
