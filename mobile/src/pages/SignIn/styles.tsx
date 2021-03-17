@@ -1,9 +1,13 @@
 import styled from 'styled-components/native';
 
+// import backgroundImage from '../../assets/images/woman-notebook.png';
+
 export const Container = styled.SafeAreaView`
     flex: 1;
     flex-direction: row;
     align-items: center;
+    /* background-size: contain; */
+    /* background: url(${backgroundImage});  */
 `;
 
 export const Title = styled.Text`
