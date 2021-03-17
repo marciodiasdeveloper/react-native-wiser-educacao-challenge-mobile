@@ -39,6 +39,12 @@ export const Content = styled.View`
   border-radius: 8px;
 `;
 
+export const ContentForm = styled.View`
+  margin-top: 32px;
+  margin-bottom: 32px;
+  width: 100%;
+`;
+
 export const Title = styled.Text`
   font-family: 'Montserrat-Regular';
   font-size: 24px;
@@ -49,7 +55,7 @@ export const Title = styled.Text`
 
 export const SubTitle = styled.Text`
   font-family: 'Montserrat-SemiBold';
-  font-size: 12px;
+  font-size: 14px;
   color: #989fdb;
   margin-top: 20px;
 `;

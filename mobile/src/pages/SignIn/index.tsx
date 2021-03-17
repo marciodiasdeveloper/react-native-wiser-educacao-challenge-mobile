@@ -1,17 +1,17 @@
 import React, { useState, useRef } from 'react';
 
 import backgroundImage from '../../assets/images/background.png';
+// import FeatherIcon from 'react-native-vector-icons/Feather';
 import Input from '../../components/Input';
-import FeatherIcon from 'react-native-vector-icons/Feather';
 
 import {
   Container,
   BackgroundImage,
   Card,
   Content,
+  ContentForm,
   Title,
   SubTitle,
-  Form,
   SubmitButton,
   ForgotPasswordButton,
   ForgotPasswordText,
@@ -20,7 +20,11 @@ import {
 
 import api from '../../services/api';
 import { showMessage } from "react-native-flash-message";
-import * as Yup from "yup";
+import * as Yup from 'yup';
+import Icon from 'react-native-vector-icons/Feather';
+import getValidationErrors from '../../utils/getValidationErrors';
+import {Form} from '@unform/mobile';
+import {FormHandles} from '@unform/core';
 
 const SignIn: React.FC = () => {
     const formRef = useRef(null);
@@ -34,8 +38,8 @@ const SignIn: React.FC = () => {
               <Title>{'Olá, seja\nbem-vindo!'}</Title>
               <SubTitle>Para acessar a plataforma, faça seu login.</SubTitle>
               <Form ref={formRef} onSubmit={() => {}}>
-                  <FeatherIcon icon="user" size={40} color="#383838" />
-                {/* <Input
+                <ContentForm>
+                  <Input
                       autoCorrect={false}
                       autoCapitalize="none"
                       keyboardType="email-address"
@@ -47,7 +51,7 @@ const SignIn: React.FC = () => {
                         passwordInputRef.current?.focus();
                       }}
                     />
-                    <Input
+                     <Input
                       ref={passwordInputRef}
                       secureTextEntry
                       name="password"
@@ -57,8 +61,8 @@ const SignIn: React.FC = () => {
                       onSubmitEditing={() => {
                         formRef.current?.submitForm();
                       }}
-                    /> */}
-
+                    /> 
+                </ContentForm>
               </Form>
             </Content>
             <SubmitButton loading={loading}>
