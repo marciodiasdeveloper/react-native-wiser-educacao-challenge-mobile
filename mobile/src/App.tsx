@@ -20,7 +20,10 @@ function App() {
 
   return (
     <NavigationContainer>
-      <StatusBar barStyle="light-content" />
+      <StatusBar 
+          translucent
+          barStyle="dark-content"
+          backgroundColor="transparent" />
       <FlashMessage position="top" animated={true} />
       <Routes />
     </NavigationContainer>

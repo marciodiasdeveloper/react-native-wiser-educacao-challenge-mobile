@@ -1,8 +1,6 @@
 import styled, { css } from 'styled-components/native';
 import FeatherIcon from 'react-native-vector-icons/Feather';
 
-import { TextInputMask } from 'react-native-masked-text';
-
 interface ContainerProps {
 	isFocused: boolean;
 	isErrored: boolean;
@@ -37,27 +35,8 @@ export const TextInput = styled.TextInput`
 	flex: 1;
 	color: #666360;
 	font-size: 16px;
-	font-family: 'Gotham-Book';
+	/* font-family: 'Gotham-Book'; */
 `;
-
-export const TextInputCPF = styled(TextInputMask).attrs({
-	type: 'cpf'
-})`
-	flex: 1;
-	color: #666360;
-	font-size: 16px;
-	font-family: 'Gotham-Book';
-`;
-
-export const TextInputPhone = styled(TextInputMask).attrs({
-	type: 'cel-phone'
-})`
-	flex: 1;
-	color: #666360;
-	font-size: 16px;
-	font-family: 'Gotham-Book';
-`;
-
 
 export const Icon = styled(FeatherIcon)`
 	margin-right: 16px;

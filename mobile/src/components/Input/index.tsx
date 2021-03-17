@@ -9,7 +9,7 @@ import React, {
 import { TextInputProps } from 'react-native';
 import { useField } from '@unform/core';
 
-import { Container, TextInput, Icon, TextInputCPF, TextInputPhone } from './styles';
+import { Container, TextInput, Icon } from './styles';
 
 interface InputProps extends TextInputProps {
 	name: string;
@@ -85,42 +85,7 @@ const Input: React.RefForwardingComponent<InputRef, InputProps> = (
 					isFocused || isFilled ? '#ffb31b' : error ? '#ee8274' : '#666360'
 				}
 			/>
-			{(rest.cpf && (
-				<TextInputCPF
-					ref={inputElementRef}
-					keyboardAppearance="dark"
-					placeholderTextColor="#666360"
-					defaultValue={defaultValue}
-					onFocus={handleInputFocus}
-					onBlur={handleInputBlur}
-					onChangeText={handleOnChangeText}
-					value={inputValueRef.current.value}
-					customTextInputProps={{ rawValue, ...rest}}
-					includeRawValueInChangeText={true}
-					{...rest}
-				/>
-			))}
-			{(rest.phone && (
-				<TextInputPhone
-					ref={inputElementRef}
-					keyboardAppearance="dark"
-					placeholderTextColor="#666360"
-					defaultValue={defaultValue}
-					onFocus={handleInputFocus}
-					onBlur={handleInputBlur}
-					onChangeText={handleOnChangeText}
-					value={inputValueRef.current.value}
-					customTextInputProps={{
-							rawValue,
-							...rest,
-							}}
-
-					includeRawValueInChangeText={true}
-					{...rest}
-				/>
-			))}
-			{((!rest.cpf && !rest.phone) && (
-					<TextInput
+				<TextInput
 					ref={inputElementRef}
 					keyboardAppearance="dark"
 					placeholderTextColor="#666360"
@@ -132,7 +97,6 @@ const Input: React.RefForwardingComponent<InputRef, InputProps> = (
 					}}
 					{...rest}
 				/>
-			))}
 		</Container>
 	);
 };
