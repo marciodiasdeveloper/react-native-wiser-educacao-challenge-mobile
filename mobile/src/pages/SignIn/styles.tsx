@@ -55,7 +55,7 @@ export const Title = styled.Text`
 
 export const SubTitle = styled.Text`
   font-family: 'Montserrat-SemiBold';
-  font-size: 14px;
+  font-size: 12px;
   color: #989fdb;
   margin-top: 20px;
 `;
