@@ -35,7 +35,6 @@ export const TextInput = styled.TextInput`
 	flex: 1;
 	color: #666360;
 	font-size: 16px;
-	/* font-family: 'Gotham-Book'; */
 `;
 
 export const Icon = styled(FeatherIcon)`

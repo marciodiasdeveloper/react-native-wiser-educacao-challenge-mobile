@@ -85,18 +85,18 @@ const Input: React.RefForwardingComponent<InputRef, InputProps> = (
 					isFocused || isFilled ? '#ffb31b' : error ? '#ee8274' : '#666360'
 				}
 			/>
-				<TextInput
-					ref={inputElementRef}
-					keyboardAppearance="dark"
-					placeholderTextColor="#666360"
-					defaultValue={defaultValue}
-					onFocus={handleInputFocus}
-					onBlur={handleInputBlur}
-					onChangeText={value => {
-						inputValueRef.current.value = value;
-					}}
-					{...rest}
-				/>
+			<TextInput
+				ref={inputElementRef}
+				keyboardAppearance="dark"
+				placeholderTextColor="#666360"
+				defaultValue={defaultValue}
+				onFocus={handleInputFocus}
+				onBlur={handleInputBlur}
+				onChangeText={value => {
+					inputValueRef.current.value = value;
+				}}
+				{...rest}
+			/>
 		</Container>
 	);
 };

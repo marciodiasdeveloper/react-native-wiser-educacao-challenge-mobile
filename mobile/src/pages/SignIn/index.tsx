@@ -33,20 +33,8 @@ const SignIn: React.FC = () => {
             <Content>
               <Title>{'Olá, seja\nbem-vindo!'}</Title>
               <SubTitle>Para acessar a plataforma, faça seu login.</SubTitle>
-              <Form ref={formRef}>
+              <Form ref={formRef} onSubmit={() => {}}>
                   <FeatherIcon icon="user" size={40} color="#383838" />
-              {/* <Input
-                      autoCorrect={false}
-                      autoCapitalize="none"
-                      keyboardType="email-address"
-                      name="email"
-                      icon="mail"
-                      placeholder="E-mail"
-                      returnKeyType="next"
-                      onSubmitEditing={() => {
-                        passwordInputRef.current?.focus();
-                      }}
-                    /> */}
                 {/* <Input
                       autoCorrect={false}
                       autoCapitalize="none"
