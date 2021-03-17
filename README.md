@@ -2,8 +2,6 @@
 
 My name Is Márcio Dias, I'm a Full Stack Developer from Divinópolis, Minas Gerais - Brazil.
 
-I solve problems that others don't.
-
 ## Social
 
 - [https://github.com/marciodiasdeveloper](https://github.com/marciodiasdeveloper)
