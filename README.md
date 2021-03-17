@@ -16,6 +16,16 @@ Desenvolver uma aplicação de login para Wiser Educação em React Native.
 
 Layout referência: [**Figma**](https://www.figma.com/file/zC98pMR61WhKX5joTKTMr6/Teste-Wiser?node-id=3%3A4)
 
+O objetivo será criar uma aplicação de login, ou seja, acesso de um usuário. O funcionamento é simples: ao preencher e-mail e senha deverá ser mostrado um alerta com sucesso ou erro. Também teremos uma validação de preenchimento correto em campo de texto.
+
+**Stack que você precisa obrigatoriamente usar:**
+● Typescript;
+● React & React Native;
+● Hooks;
+● Styled Components ou CSS in JS;
+● Redux & Redux Saga;
+● Axios.
+
 ## Instruções para instalação das depêndencias
 
 git clone https://github.com/marciodiasdeveloper/wiser-educacao-challenge-mobile.git
