@@ -41,6 +41,6 @@ Dentro da pasta raiz do projeto execute o comando
 
 ## Rodar o projeto
 
-
 Executar Android: `yarn android` 
+
 Executar iOS: `yarn ios`
