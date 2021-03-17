@@ -15,11 +15,6 @@ function App() {
 
   useEffect(() => {
     dispatch(clearAuthControls());
-    showMessage({
-      message: 'Usuário logado',
-      description: 'Parabéns, seu acesso foi liberado!.',
-      type: 'success',
-    });
   }, []);
 
   return (

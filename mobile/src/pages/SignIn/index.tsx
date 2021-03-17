@@ -29,7 +29,7 @@ const SignIn: React.FC = () => {
     const dispatch = useDispatch();
     const formRef = useRef(null);
     const passwordInputRef = useRef(null);
-    const [loading, setLoading] = useState(false);
+    const controls = useSelector(state => state.auth.controls);
 
     const handleSignIn = useCallback(
       async (data) => {
@@ -46,11 +46,7 @@ const SignIn: React.FC = () => {
           await schema.validate(data, {
             abortEarly: false,
           });
-  
           dispatch(signInRequest(data.email, data.password));
-  
-
-
         } catch (err) {
           if (err instanceof Yup.ValidationError) {
             const errors = getValidationErrors(err);
@@ -102,7 +98,7 @@ const SignIn: React.FC = () => {
                 </ContentForm>
               </Form>
             </Content>
-            <SubmitButton loading={loading} onPress={() => formRef.current?.submitForm() }>
+            <SubmitButton loading={controls.loading} onPress={() => formRef.current?.submitForm() }>
               Entrar
             </SubmitButton>
           </Card>

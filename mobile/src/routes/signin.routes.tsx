@@ -12,7 +12,6 @@ const SignInStack = createStackNavigator();
 const SignInRoutesStack = () => {
   return (
     <>
-      <StatusBar barStyle={Platform.OS === 'android' ? 'light-content' : 'dark-content'} />
       <SignInStack.Navigator
         screenOptions={{
           headerShown: false,
