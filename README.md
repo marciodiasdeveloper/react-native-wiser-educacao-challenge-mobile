@@ -3,8 +3,9 @@
 ## Márcio Dias - Soluções Digitais
 
 - [https://github.com/marciodiasdeveloper](https://github.com/marciodiasdeveloper)
-- [https://instagram.com/marciodias.me](https://instagram.com/marciodias.me)
 - [https://www.linkedin.com/in/marciodiasdeveloper](https://www.linkedin.com/in/marciodiasdeveloper)
+- [https://marciodiasdeveloper.medium.com](https://marciodiasdeveloper.medium.com)
+- [https://instagram.com/marciodias.me](https://instagram.com/marciodias.me)
 
 
 # Wiser Login Challenge
